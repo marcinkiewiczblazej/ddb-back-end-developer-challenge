@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    defer-datasource-initialization: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  error:
+    include-message: always # for development only, for production disable to avoid leaking internal information
+    include-stacktrace: always
+  port: 8080
+
+application:
+  player:
+    data:
+      folder: "./data"

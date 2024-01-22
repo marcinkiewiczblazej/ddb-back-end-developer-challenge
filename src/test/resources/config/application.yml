@@ -1,0 +1,8 @@
+application:
+  player:
+    data:
+      folder: "./test-data"
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb

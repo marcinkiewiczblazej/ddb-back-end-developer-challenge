@@ -61,3 +61,8 @@ Here is a list of possible damage types that can occur in Dungeons & Dragons (D&
 If you have any questions or require clarification, please reach out to your Wizards of the Coast contact, and we will provide prompt assistance.
 
 Good luck with the implementation!
+
+## Run instructions
+Project is using Java 21. You can use `./gradlew bootRun` command to start the server. It'll run on port 8080. By default server will load all player files inside `data` folder.
+
+You can run tests by running command `./gradlew test`. Tests fetch data from `test-data` folder.
